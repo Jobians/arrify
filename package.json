@@ -1,0 +1,25 @@
+{
+  "name": "@jobians/arrify",
+  "version": "1.0.0",
+  "main": "dist/arrify.js",
+  "module": "dist/arrify.js",
+  "types": "dist/arrify.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jobians/arrify.git"
+  },
+  "keywords": [
+    "arrify",
+    "typescript",
+    "utility"
+  ],
+  "author": "JOBIANSTECHIE",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.8.7"
+  }
+}
